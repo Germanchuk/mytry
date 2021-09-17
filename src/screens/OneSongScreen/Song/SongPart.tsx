@@ -1,22 +1,15 @@
 import React, { FC, useEffect, useRef } from 'react'
-import { View, Text, StyleSheet, TouchableOpacity, Easing, Animated } from 'react-native'
+import { View, StyleSheet, TouchableOpacity, Animated } from 'react-native'
 import { RenderItemParams } from 'react-native-draggable-flatlist'
-import { Button, Card, Paragraph, Title } from 'react-native-paper'
+import { Paragraph, Title } from 'react-native-paper'
 import DragIcon from '../../../assets/icons/DragIcon'
 import { Part } from '../../../fakeData'
-
-
-
-interface SongPartProps {
-
-}
 
 const SongPart: FC<RenderItemParams<Part>> = ({ item, drag, isActive }) => {
 
 	const elevation = useRef(new Animated.Value(3)).current;
 
 	useEffect(() => {
-		console.log('switch: ', isActive);
 
 		Animated.timing(elevation, {
 			toValue: isActive ? 12 : 3,

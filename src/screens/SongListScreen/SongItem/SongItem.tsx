@@ -1,6 +1,6 @@
 import React, { FC } from 'react'
-import { StyleSheet, View } from 'react-native'
-import { Card, Text } from 'react-native-paper'
+import { StyleSheet } from 'react-native'
+import { Card } from 'react-native-paper'
 import { songInterface } from '../../../fakeData'
 import RightSongItem from './RightSongItem'
 

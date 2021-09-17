@@ -1,5 +1,5 @@
-import React, { FC, useCallback, useEffect, useState } from 'react'
-import { View, Text, StyleSheet } from 'react-native'
+import React, { FC, useCallback, useState } from 'react'
+import { View, StyleSheet } from 'react-native'
 import DraggableFlatList, { RenderItemParams } from 'react-native-draggable-flatlist'
 import { Title } from 'react-native-paper'
 import { Part, partsExample, songInterface } from '../../../fakeData'

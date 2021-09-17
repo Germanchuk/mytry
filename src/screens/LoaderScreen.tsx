@@ -1,5 +1,5 @@
 import React, { FC } from 'react'
-import { View, Text, StyleSheet } from 'react-native'
+import { View, StyleSheet } from 'react-native'
 import { ActivityIndicator } from 'react-native-paper'
 
 interface LoaderScreenProps {

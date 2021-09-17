@@ -1,7 +1,7 @@
 import { RouteProp } from '@react-navigation/core'
 import { NativeStackNavigationProp } from '@react-navigation/native-stack'
 import React, { FC, useEffect, useState } from 'react'
-import { View, Text, StyleSheet } from 'react-native'
+import { View, StyleSheet } from 'react-native'
 import { RouteParamList } from '../../RoutesParamList'
 import { getSong } from '../../services/fakeApi'
 import { songInterface } from '../../fakeData'

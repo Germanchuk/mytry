@@ -9,7 +9,6 @@ interface RightSongItemProps {
 }
 
 const RightSongItem: FC<RightSongItemProps> = ({
-	bpm,
 	tonality,
 	color,
 }) => {

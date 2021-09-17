@@ -1,6 +1,6 @@
 import { Picker } from '@react-native-picker/picker'
-import React, { FC, useState } from 'react'
-import { View, Text, StyleSheet, } from 'react-native'
+import React, { FC } from 'react'
+import { View, StyleSheet, } from 'react-native'
 
 interface FiltersProps {
 	selected: string
